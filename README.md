@@ -27,3 +27,12 @@ You can then **use the URL displayed on the screen** in your React code to se
 
 ![](https://img-c.udemycdn.com/redactor/raw/article_lecture/2023-11-28_15-36-11-b77f0ce79a4a19a041735b1b61b8c980.jpg)
 https://reactcart-49bf0-default-rtdb.firebaseio.com/
+
+A Problem with useEffect()
+We face one problem when using useEffect the way we currently do it: It will execute when our app starts.
+
+Why is this an issue?
+
+It's a problem because this will send the initial (i.e. empty) cart to our backend and overwrite any data stored there.
+
+We'll fix this over the next lectures, I just wanted to point it out here!
