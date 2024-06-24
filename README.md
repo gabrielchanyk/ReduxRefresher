@@ -36,3 +36,5 @@ Why is this an issue?
 It's a problem because this will send the initial (i.e. empty) cart to our backend and overwrite any data stored there.
 
 We'll fix this over the next lectures, I just wanted to point it out here!
+
+https://reactcart-49bf0-default-rtdb.firebaseio.com/cart.json
