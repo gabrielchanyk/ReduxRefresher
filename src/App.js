@@ -7,8 +7,9 @@ import Products from "./components/Shop/Products";
 import { uiActions } from "./store/ui-slice";
 import Notification from "./components/UI/Notification";
 
+// do not want to send the cart right at the beginning becuase will overwrite with empty cart right away
 let isInitial = true;
-
+// utilize redux state isntead of use state
 function App() {
   const dispatch = useDispatch();
   const showCart = useSelector((state) => state.ui.cartIsVisible);
